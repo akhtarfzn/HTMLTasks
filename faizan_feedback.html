@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Undergrad from sharda university">
+    <meta name="keywords" content="Faizan,FaizanAkhtar,Faizan Akhtar,ShardaUniversity">
+    <link rel="shortcut icon" href="IMG_faizan.jpg" type="image/x-icon" />
+    <title>Faizan Feedback</title>
+</head>
+<body>
+    <h1>Feedback Form for Faizan's Profile</h1>
+    <form>
+        First name:
+        <br>
+        <input type="text" name="Name">
+        <br>
+        Email:
+        <br>
+        <input type="email" name="email">
+        <br>
+        <br>
+        <h2>Liked the Profile Page ?</h2>
+        <input type="radio" name="liked" value="Yes" checked> YES
+        <br>
+        <input type="radio" name="liked" value="No"> NO
+        <br>
+        <br>
+        <h2>Suggestions</h2>
+        <input type="checkbox" name="Suggestion1" value="UI"> Improve Profile Page UI
+        <br>
+        <input type="checkbox" name="Suggestion2" value="Layout"> Rearrange Layout
+        <br>
+        <input type="checkbox" name="Suggestion3" value="Good"> Good! Keep it Up.
+        <br>
+        <br>
+        <h3>Feedback</h3>
+        <input list="feedback" name="feedback">
+        <datalist id="feedback">
+            <option value="Below Average">
+            <option value="Average">
+            <option value="Good">
+            <option value="Very Good">
+            <option value="Excellent"> </option>
+        </datalist>
+        <br><br>
+        <h3>Rate Faizan's Profile Page</h3>
+        0
+        <input type="range" id="rate" name="rate" value="10">
+        10 
+        <br>
+        <br>
+        <h3>Comments</h3>
+        <textarea name="message" rows="5" cols="50">Please write some comments ...</textarea>
+        <br>
+        <br>
+        <button type="button" onclick="alert('Your response is submitted')">SUBMIT</button>
+        <br><br>
+        <br><br>
+    
+    </form>
+
+</body>
+</html>
